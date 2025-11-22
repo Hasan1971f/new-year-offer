@@ -6,7 +6,8 @@
 }
 
 body {
-    font-family: "Merriweather", serif;
+    font-family: "Inter", sans-serif;
+    ;
 }
 
 section,
@@ -15,4 +16,82 @@ footer {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+}
+/* ====Banner section ====== */
+.banner {
+    background: url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 50px;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.banner-subtitle {
+
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+
+
+
+}
+
+.banner-title {
+    font-family: 'Merriweather';
+    font-weight: bold;
+    font-size: 72px;
+    color: #FFFFFF;
+    line-height: 95px;
+    max-width: 700px;
+
+}
+
+/* ===Offer-section===== */
+.offer {
+    padding: 56px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.discount-offer {
+    font-weight: 900;
+    font-size: 88px;
+    color: #FF0000;
+    margin-bottom: 56px;
+}
+
+.offer-subtitle {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF0000;
+    margin-bottom: 16px;
+
+
+}
+
+.offer-title {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 48px;
+}
+
+.offer-img img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+   
 }
