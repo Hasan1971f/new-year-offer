@@ -17,7 +17,7 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
 }
-/* ====Banner section ====== */
+/* ====Banner section Styles====== */
 .banner {
     background: url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
@@ -55,7 +55,7 @@ footer {
 
 }
 
-/* ===Offer-section===== */
+/* ===Offer-section Styles===== */
 .offer {
     padding: 56px;
     text-align: center;
