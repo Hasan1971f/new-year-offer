@@ -17,6 +17,7 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 /* ====Banner section Styles====== */
 .banner {
     background: url('../images/Banner\ Image.png');
@@ -86,12 +87,15 @@ footer {
     margin-bottom: 48px;
 }
 
-.offer-img img{
+.offer-img img {
     display: flex;
     justify-content: center;
     width: 100%;
     max-width: 800px;
     height: auto;
     margin: 0 auto;
-   
+
 }
+
+
+
