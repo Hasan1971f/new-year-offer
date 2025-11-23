@@ -97,5 +97,56 @@ footer {
 
 }
 
+/* ===== party promo section styles====== */
+
+.party-promo {
+    background: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 110px;
+    border-radius: 5px;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.promo-details {
+    padding: 130px;
 
 
+}
+
+.promo-heading {
+    margin-top: 126px;
+    width: 640px;
+    color: #FFFFFF;
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 88px;
+    letter-spacing: 6px;
+}
+
+.promo-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-bottom: 24px;
+}
+
+.promo-btn {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 10px;
+    color: #FFFFFF;
+    background: transparent;
+    cursor: pointer;
+
+
+}
